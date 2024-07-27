@@ -214,7 +214,9 @@ fieldset {
   display: inline-block;
   border: 1px solid #fff;
   cursor: pointer;
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .search-form__label-text {
@@ -271,13 +273,9 @@ fieldset {
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::before {
   content: "";
-  position: absolute;
   width: 12px;
   height: 12px;
   background-color: white;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .more-button {

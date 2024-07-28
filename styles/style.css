@@ -52,7 +52,7 @@ fieldset {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   white-space: nowrap;
-} 
+}
 
 .content {
   display: flex;
@@ -111,6 +111,7 @@ fieldset {
 .content__list {
   overflow-y: scroll;
   block-size: 300px;
+  position: relative;
 }
 
 .content__list-item:not(:first-child) {
@@ -134,10 +135,7 @@ fieldset {
   position: relative;
   inline-size: 711px;
   block-size: 386px;
-  margin: 0 0 16px 0;
-}
-.content__list {
-  position: relative; 
+  margin: 0 0 16px;
 }
 
 .result__video {
@@ -151,7 +149,7 @@ fieldset {
   justify-content: space-between;
   gap: 10px;
   align-items: start;
-  
+
 }
 
 .content__card-link {
@@ -167,7 +165,7 @@ fieldset {
 }
 
 .content__card-link:focus-visible {
-  outline: 1px solid #fff;    
+  outline: 1px solid #fff;
 }
 
 .content__card-link:hover {

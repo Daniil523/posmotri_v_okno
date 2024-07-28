@@ -57,6 +57,7 @@ fieldset {
 .content {
   display: flex;
   align-items: end;
+  justify-content: center;
   gap: 30px;
   width: 1200px;
 }
@@ -110,7 +111,7 @@ fieldset {
 
 .content__list {
   overflow-y: scroll;
-  block-size: 300px;
+  block-size: 298px;
   position: relative;
 }
 
@@ -128,13 +129,13 @@ fieldset {
   block-size: 100%;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 20px;
 }
 
 .result__video-container {
   position: relative;
   inline-size: 711px;
-  block-size: 386px;
+  block-size: 394px;
   margin: 0 0 16px;
 }
 
@@ -270,8 +271,8 @@ fieldset {
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::before {
   content: "";
-  width: 12px;
-  height: 12px;
+  width: 16px;
+  height: 16px;
   background-color: white;
 }
 

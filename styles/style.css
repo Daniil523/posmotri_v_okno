@@ -146,7 +146,6 @@ fieldset {
 .content__video-card {
   display: flex;
   justify-content: space-between;
-  gap: 10px;
   align-items: start;
   max-width: 390px;
   min-height: 107px;
